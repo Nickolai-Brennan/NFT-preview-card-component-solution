@@ -1,0 +1,105 @@
+:root{
+--Softblue: hsl(215, 51%, 70%);
+--Cyan:hsl(178, 100%, 50%);
+--VerydarkbluemainBG: hsl(217, 54%, 11%);
+--VerydarkbluecardBG: hsl(216, 50%, 16%);
+--Verydarkblueline: hsl(215, 32%, 27%);
+--White: hsl(0, 0%, 100%);
+}
+img{
+   max-width:100%;
+    height: auto;
+}
+body {
+background-color: var(--VerydarkbluemainBG);
+width: 100vw;
+height:100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+body p{
+    font-size:18px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container img{
+    border-radius: 8px;
+    box-shadow: 1px 2px 15px var(--VerydarkbluecardBG);
+    transition-duration: 3s;
+}
+.container img:hover{
+    transform: rotate(180deg);
+  
+}
+.container{
+    width: 320px;
+    padding:22px ;
+    background-color: var(--VerydarkbluecardBG);
+    border-radius: 15px;
+    font-family: "Outfit", serif;
+}
+.container:hover{
+box-shadow: 1px 3px 15px rgb(116, 79, 79);
+}
+.down{
+    color: var(--White);
+}
+.down p{
+    color: var(--Softblue);
+    font-weight: 400;
+    font-size: 18px;
+}
+.clock{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.first, .second{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.first img , .second img{
+    transition-duration: 1s;
+    margin-right:10px ;
+}
+.second img{
+    transform: rotate(36deg);
+}
+.first p{
+    color: var(--Cyan);
+    font-weight: 400;
+}
+hr{
+    color:var(--Verydarkblueline);
+}
+.footer{
+    display: flex;
+    justify-content:start;
+    align-items: center;
+}
+.footer img{
+    width: 30px;
+    height: 30px;
+    margin-right:15px;
+    border-radius: 100%;
+    border: 1px solid #ddd;
+}
+.footer p{
+    font-weight: 400;
+}
+.footer i{
+    font-style: normal;
+    color:var(--White);
+    font-weight: 300;
+}
+.footer img:hover{
+    width: 100%;
+    height: 100%;
+    transform: none;
+}
