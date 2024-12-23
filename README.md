@@ -30,8 +30,8 @@ Users should be able to:
 ![](./Screenshot%20(27).png)
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here]([https://your-solution-url.com](https://www.frontendmentor.io/solutions/nft-preview-card-component-solution-dffvEXpRPb))
+- Live Site URL: [Add live site URL here]([https://your-live-site-url.com](https://rococo-froyo-da0e2a.netlify.app/))
 
 ## My process
 
